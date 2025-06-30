@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="min-h-screen flex items-center justify-center bg-gray-900 relative overflow-hidden pt-16 sm:pt-0"
+        className="min-h-screen flex items-center justify-center bg-slate-900 relative overflow-hidden pt-16 sm:pt-0"
       >
         {/* Blurry Circles Background */}
         <div className="absolute inset-0 overflow-hidden">
@@ -113,7 +113,7 @@ const Home = () => {
             <div className="w-80 h-80 mx-auto bg-gradient-to-br from-cyan-400/20 to-purple-600/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/10">
               <div className="w-64 h-64 bg-gradient-to-br from-slate-800 to-slate-900 rounded-full flex items-center justify-center border-4 border-cyan-400/30">
                 <img
-                  src={arifImg}
+                  // src={arifImg}
                   alt=""
                   className="rounded-full object-cover"
                 />
@@ -143,6 +143,8 @@ const Home = () => {
           </button>
         </div>
       </section>
+      
+      
     </>
   );
 };

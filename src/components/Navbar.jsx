@@ -55,8 +55,8 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
       className={`fixed w-full md:max-w-xl sm:top-4 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-gray-900/90 backdrop-blur-md shadow-lg"
-          : "bg-gray-900/80 backdrop-blur-sm "
+          ? "bg-slate-900/90 backdrop-blur-md shadow-lg"
+          : "bg-slate-900/80 backdrop-blur-sm "
       } sm:rounded-full border border-gray-800`}
     >
       <div className="flex items-center px-4 py-2">
@@ -67,8 +67,8 @@ const Navbar = () => {
                 onClick={() => scrollToSection(item.id)}
                 className={`flex items-center p-2 sm:px-4 sm:py-2 rounded-full transition-colors cursor-pointer relative ${
                   activeSection === item.id
-                    ? "text-cyan-400 bg-gray-800"
-                    : "text-gray-300 hover:text-white hover:bg-gray-800/50"
+                    ? "text-cyan-400 bg-slate-800"
+                    : "text-gray-300 hover:text-white hover:bg-slate-800/50"
                 }`}
                 aria-label={item.label}
               >

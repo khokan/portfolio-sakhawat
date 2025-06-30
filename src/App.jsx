@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -11,12 +11,12 @@ function App() {
     <>
       <div>
         <Navbar />
-        <Home />
+         <Home />
         <AboutMe />
         <Skills />
         <Projects />
-        <Contact />
-        <Footer />
+        {/* <Contact /> */}
+        <Footer /> 
       </div>
     </>
   );

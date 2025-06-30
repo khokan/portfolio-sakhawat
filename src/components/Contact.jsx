@@ -50,7 +50,7 @@ const Contact = () => {
                   icon: <FaGithub className="text-gray-700 text-xl" />,
                   name: "GitHub",
                   url: "https://github.com/khokan",
-                  color: "bg-gray-50",
+                  color: "bg-slate-50",
                 },
                 {
                   icon: <FaLinkedin className="text-blue-600 text-xl" />,
@@ -106,7 +106,7 @@ const Contact = () => {
             <a
               href="mailto:mohammadMohamamd Sakhawat Hossain07@gmail.com?subject=Let's%20Work%20Together&body=Hi%20there%2C%0A%0AI%20found%20your%20portfolio%20and%20wanted%20to%20reach%20out..."
               aria-label="Send email to Mohammad Mohamamd Sakhawat Hossain"
-              className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-md px-6 py-2 text-base font-semibold text-white transition-transform duration-200 ease-out hover:scale-95 active:scale-95 hover:shadow-lg hover:shadow-gray-600/30 border border-white/20 cursor-pointer"
+              className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-slate-800/30 backdrop-blur-md px-6 py-2 text-base font-semibold text-white transition-transform duration-200 ease-out hover:scale-95 active:scale-95 hover:shadow-lg hover:shadow-gray-600/30 border border-white/20 cursor-pointer"
             >
               <span className="text-lg">Send me Message</span>
               <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-700 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
