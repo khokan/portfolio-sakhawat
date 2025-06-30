@@ -39,10 +39,10 @@ const AboutMe = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">
-                    B.Sc (Hons) in Physics
+                    Bachelor and Masters in Computer Science
                   </h3>
                   <p className="text-gray-300">
-                    Mawlana Bhashani Science and Technology University, Tangail
+                   University Of Pune (India)
                   </p>
                 </div>
               </div>
@@ -60,9 +60,9 @@ const AboutMe = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">
-                    Web Developer at CornerStone Protection
+                    Chittagong Stock Exchange PLC
                   </h3>
-                  <p className="text-gray-300">2015 - Present</p>
+                  <p className="text-gray-300">2010 - Present</p>
                 </div>
               </div>
             </div>

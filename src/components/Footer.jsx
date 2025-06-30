@@ -10,6 +10,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { Link } from "react-router"; // use 'next/link' if in Next.js
+import logo from '../assets/react.png';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -35,9 +36,9 @@ const Footer = () => {
                 to="/"
                 className="text-2xl font-bold tracking-wide bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent hover:scale-105 transition-transform flex items-center gap-0 -ml-4"
               >
-                <ChevronLeft size={40} className="text-cyan-400" />
-               <img src="" alt="" />
-                <ChevronRight size={40} className="text-purple-400" />
+                {/* <ChevronLeft size={40} className="text-cyan-400" /> */}
+               <img src={logo} className="w-32 h-32 object-contain" alt="" />
+                {/* <ChevronRight size={40} className="text-purple-400" /> */}
               </Link>
               <p className="text-base text-slate-300">Full-Stack Developer</p>
               <p className="text-slate-400 text-sm leading-relaxed">
