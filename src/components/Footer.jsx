@@ -10,7 +10,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { Link } from "react-router"; // use 'next/link' if in Next.js
-import logo from '../assets/react.png';
+import logo from '/logo.png';
 
 const Footer = () => {
   const scrollToTop = () => {
