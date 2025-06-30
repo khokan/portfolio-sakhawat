@@ -71,8 +71,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-900 pt-16 font-sans text-slate-100">
-      <section id="skills" className="py-16 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-slate-900 pt-5 font-sans text-slate-100">
+      <section id="skills" className="py-5 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <h2 className="text-4xl font-bold text-center mb-4">

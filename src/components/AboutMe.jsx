@@ -3,8 +3,8 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-900 text-slate-100 font-sans pt-16 sm:pt-0">
-      <section id="about" className="relative z-10 py-10 lg:py-20 px-6 w-full">
+    <div className="min-h-screen flex items-center justify-center bg-slate-900 text-slate-100 font-sans pt-5 sm:pt-0">
+      <section id="about" className="relative z-10 py-5 lg:py-5 px-6 w-full">
         <div className="max-w-7xl mx-auto">
           {/* Title */}
           <h2 className="text-4xl md:text-5xl font-bold lg:text-center mb-6 lg:mb-10 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
