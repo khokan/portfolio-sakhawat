@@ -1,18 +1,36 @@
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 
+
 const Projects = () => {
   const projects = [
+     {
+      title: "Study Hub",
+      description:
+        "StudyHub is a platform where students can discover and join local study groups (e.g., math clubs, science circles, language exchange) or create their own. It encourages social engagement through shared learning goals, helping people build communities around their academic passions.",
+      tags: ["React", "MongoDB", "TailwindCSS", "JWT", "Firebase", "ExpressJs"],
+      image: "https://i.ibb.co.com/LXJKNn9M/study-hub.jpg",
+      github: "https://github.com/khokan/study-hub",
+      live: "https://study-hub-khokan.web.app",
+    },
+     {
+      title: "Athletic Hub",
+      description:
+        "AthleticHub is a platform where fitness enthusiasts can discover and join local workout groups (e.g., running clubs, yoga classes, cycling teams) or create their own. It encourages social engagement through shared fitness goals, helping people build communities around their athletic passions.",
+      tags: ["React", "MongoDB", "TailwindCSS", "JWT", "Firebase", "ExpressJs"],
+      image: "https://i.ibb.co.com/Bkmv3Pv/athletic-hub.jpg",
+      github: "https://github.com/khokan/athletic-hub",
+      live: "https://athletic-hub.web.app",
+    },
     {
       title: "Hobby Hub",
       description:
         "HobbyHub is a platform where people can discover and join local hobby-based groups (e.g., book clubs, hiking crews, painting circles) or create their own. It encourages social engagement through shared interests, helping people build communities around their passions.",
-      tags: ["React", "MongoDB", "TailwindCSS", "JWT", "ExpressJs"],
+      tags: ["React", "MongoDB", "TailwindCSS", "daisyui", "Firebase", "ExpressJs"],
       image: "https://i.ibb.co/27KpFm8p/Feature.png",
       github: "https://github.com/khokan/hobby-hub-client",
-      live: "https://b11a10-client-side-khokan77.web.app/",
-    },
-    // ... other projects
+      live: "https://hobby-hub-khokon.web.app",
+    }
   ];
 
   return (
@@ -53,13 +71,13 @@ const Projects = () => {
                 </div>
 
                 {/* Content */}
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2 text-white">
+                <div className="flex flex-col justify-between p-5">
+                  <div className="text-xl font-bold mb-2 text-white">
                     {project.title}
-                  </h3>
-                  <p className="text-slate-300 mb-4 text-sm leading-relaxed">
+                  </div>
+                  <div className="text-slate-300 mb-4 text-sm leading-relaxed">
                     {project.description}
-                  </p>
+                  </div>
 
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2 mb-4">
