@@ -82,7 +82,7 @@ const Footer = () => {
                   },
                   {
                     icon: Linkedin,
-                    href: "https://linkedin.com/in/khokan77/",
+                    href: "https://linkedin.com/in/sakhawat77/",
                     label: "LinkedIn",
                   },
                 ].map(({ icon: Icon, href, label }, idx) => (
