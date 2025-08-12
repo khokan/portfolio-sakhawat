@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative bg-slate-900 text-slate-100 overflow-hidden">
+    <footer id="contact" className="relative bg-slate-900 text-slate-100 overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl animate-pulse" />

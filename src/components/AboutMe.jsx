@@ -19,7 +19,7 @@ const AboutMe = () => {
                 starting with desktop application development using  <strong className="text-cyan-400">VC++ (MFC) and .NET</strong>. 
                 In recent years, I transitioned to web development, initially with  <strong className="text-cyan-400">ASP.NET and ASP.NET Core</strong>, 
                 and now work extensively with  <strong className="text-purple-400">React and Next.js</strong>. I'm passionate about building fast, modern web applications 
-                and am especially interested in <strong className="text-green-400">real-time data handling using socket programming for fintech platforms.</strong> 
+                and am especially interested in <strong className="text-green-400">real-time data handling using socket programming for fintech platforms. </strong> 
                 My background in <strong className="text-orange-400">both desktop and web technologies</strong> allows me to create reliable, scalable solutions 
                 that blend the robustness of traditional systems with the flexibility of the modern web.
               </p>
